@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+   <config version="1.0" htmlParse="false">
+
+   <!-- GENERAL SETTINGS -->
+   <item id="studyTitle">Taller de Validación</item> 
+   <item id="setupTarget">firebase</item>
+   <item id="firebaseOrLocal">firebase</item>
+   <item id="steinApiUrl"></item>
+
+
+   <item id="shuffleCards">true</item>
+   <item id="headerBarColor">#1F3862</item>
+   <item id="devMode">false</item>
+   
+
+   <!-- ACCESS -->
+   <!-- options: anonymous, partId-access, partId, access -->
+   <item id="initialScreen">anonymous</item>
+   <item id="accessCode">null</item>
+
+
+   <!-- FONT OPTIONS -->
+   <!-- defaults false, 15, #2a2a2a -->
+   <item id="setDefaultFontSize">true</item>
+   <item id="defaultFontSize">18</item>
+   <item id="defaultFontColor">#2F3658</item>
+
+
+   <!-- PRESORT -->
+   <!-- default colors #ccffcc, #e0e0e0, #ffe0f0 -->
+   <item id="greenCardColor">#ccffcc</item>
+   <item id="yellowCardColor">#e0e0e0</item>
+   <item id="pinkCardColor">#ffe0e0</item>
+ 
+
+   <!-- SORT -->
+   <item id="condOfInstFontSize">22</item>
+   <item id="allowUnforcedSorts">false</item>
+   <item id="warnOverloadedColumn">true</item>
+   <item id="setMinCardHeight">true</item>
+   <item id="minCardHeight">83</item>
+
+
+   <!-- POSTSORT -->
+   <item id="showPostsort">true</item>
+   <item id="showSecondPosColumn">false</item>
+   <item id="showSecondNegColumn">false</item>
+   
+
+   <item id="displayNeutralObjects">false</item>
+
+
+   <!-- SURVEY - Survey Questions -->
+   <item id="showSurvey">true</item>
+
+   <item id="survey">
+        <input type="text" required="false" limited="false" maxlength="99999" restricted="true"></input>
+        <label>Edad</label>
+        <note>Por favor introduzca su edad en número</note>
+   </item>
+
+   <item id="survey">
+        <input type="text" required="false" limited="false" maxlength="99999" restricted="true"></input>
+        <label>Antigüedad en la institución </label>
+        <note>Por favor indique el número de años que lleva en laborando en la institución</note>
+   </item>
+
+   <item id="survey">
+        <input type="radio" required="false">Hombre;;;Mujer;;;Prefiero no decir</input>
+        <label>Sexo</label>
+        <note>Por favor seleccione el sexo con el cual nació</note>
+   </item>
+
+   <item id="survey">
+        <input type="text" required="true" limited="false" maxlength="99999" restricted="false"></input>
+        <label>Intereses Formativos</label>
+        <note>Si pudiera escoger una capacitación para su equipo y usted, ¿cuál escogería?</note>
+   </item>
+
+
+       
+  </config>
