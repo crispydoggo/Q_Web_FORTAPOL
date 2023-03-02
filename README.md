@@ -20,7 +20,7 @@ This repository contains the resources necessary to conduct and analyze an onlin
 
 - `EQ-Web-Sort-v200`: A folder wich contains the whole backend of the Web Page developed by [EQ Web Sort](https://github.com/shawnbanasick/eq-web-sort).
 - `analysis.R`: A script for conducting the Q-methodology analysis using R.
--`README.md`: This file.
+- `README.md`: This file.
 
 ## Credits
 
