@@ -14,9 +14,9 @@
         <item id="btnNext">Continuar</item>
 
         <!-- LANDING SCREEN -->
-        <item id="landingHead">Taller de Validación FORTAPOL</item>
+        <item id="landingHead">Sesión de Validación FORTAPOL</item>
         <item id="welcomeText">{{{div style=&quot;display: flex; flex-direction: row; flex-wrap: wrap; align-items: center; justify-content: space-around; width: 100%&quot;}}} {{{div style=&quot;display:flex; flex-direction:column&quot;}}} {{{img src=&quot;/images/fiscal.png&quot; width=&quot;640&quot; /}}} {{{/div}}}
-{{{center}}}{{{h1}}}¡Bienvenidos al taller de Validación!{{{/h1}}}{{{/center}}}{{{br/}}}{{{br}}}
+{{{center}}}{{{h1}}}¡Bienvenidos a la sesión de validación!{{{/h1}}}{{{/center}}}{{{br/}}}{{{br}}}
 
 Aquí trabajaremos juntos para fortalecer la labor policial en el combate a la delincuencia y la procuración de justicia. Validaremos sus intereses formativos y habilidades necesarias de la policía de investigación para mejorar la seguridad y calidad de vida en nuestras comunidades {{{br}}} {{{br/}}}
 
@@ -31,7 +31,7 @@ Aquí trabajaremos juntos para fortalecer la labor policial en el combate a la d
         <item id="partIdWarning">undefined</item>
         <item id="loginHeaderText">undefined</item>
         <item id="loginWelcomeText">undefined</item>
-        <item id="landingHelpModalHead">Taller de Validación FORTAPOL</item>
+        <item id="landingHelpModalHead">Sesión de Validación FORTAPOL</item>
         <item id="landingHelpModalText">{{{center}}}{{{h3}}}Instructivo General del Taller{{{/h3}}} {{{/center}}}{{{br/}}}{{{br}}} {{{div style=&quot;display: flex; flex-direction: column; align-items: center;&quot;}}} {{{div}}}{{{h4}}}Instrucciones: {{{/h4}}}
     {{{ul style=&quot;margin-left: 20px;&quot;}}} {{{br}}}{{{br}}}
      {{{li}}}Sitúa el cursor del ratón sobre el objeto que deseas arrastrar. {{{/li}}} {{{li}}}Haz clic en las tarjetas y mantén el botón izquierdo del ratón presionado. {{{/li}}} 
