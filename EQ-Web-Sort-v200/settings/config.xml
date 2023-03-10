@@ -3,7 +3,7 @@
    <config version="1.0" htmlParse="false">
 
    <!-- GENERAL SETTINGS -->
-   <item id="studyTitle">Taller de Validación</item> 
+   <item id="studyTitle">Sesión de Validación</item> 
    <item id="setupTarget">firebase</item>
    <item id="firebaseOrLocal">firebase</item>
    <item id="steinApiUrl"></item>
@@ -39,7 +39,7 @@
    <item id="allowUnforcedSorts">false</item>
    <item id="warnOverloadedColumn">true</item>
    <item id="setMinCardHeight">true</item>
-   <item id="minCardHeight">83</item>
+   <item id="minCardHeight">108</item>
 
 
    <!-- POSTSORT -->
