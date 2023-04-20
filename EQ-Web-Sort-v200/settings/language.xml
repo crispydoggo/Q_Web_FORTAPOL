@@ -64,12 +64,12 @@ Aquí trabajaremos juntos para fortalecer la labor policial en el combate a la d
 
         <!-- PRESORT: rough sorting into three piles (leave blank to skip popup)-->
         <item id="titleBarText">Clasificación Preliminar</item>
-        <item id="presortAgreement">De Acuerdo </item>
-        <item id="presortStatements">Afirmaciones</item>
+        <item id="presortAgreement">Útil</item>
+        <item id="presortStatements">Habilidades</item>
         <item id="presortNeutral">Neutral</item>
-        <item id="presortDisagreement"> Desacuerdo</item>
+        <item id="presortDisagreement">No muy útil</item>
         <item id="presortModalHead">Paso 1 de 4</item>
-        <item id="presortModalText">Lee atentamente las siguientes afirmaciones y divídelas en tres grupos: un grupo con las afirmaciones con las que no estás de acuerdo, otro con las que estás de acuerdo y otro con el resto. Puedes hacer cambios más tarde.{{{br}}}
+        <item id="presortModalText">Lee atentamente las siguientes habilidades y divídelas en tres grupos: un grupo con las habilidades que consideres útiles, otro con las que no consideres muy útiles y otro con el resto. Puedes hacer cambios más tarde.{{{br}}}
 {{{br}}}
 Si quieres leer estas instrucciones por segunda vez, haz clic en el botón de ayuda de la esquina inferior izquierda.</item>
         <item id="presortPreventNavModalHead">Navegación desactivada</item>
@@ -79,14 +79,12 @@ Si quieres leer estas instrucciones por segunda vez, haz clic en el botón de ay
 
         <!-- SORT: sorting (leave blank to skip popup) -->
         <item id="sortHelpModalHead">Paso 2 de 4</item>
-        <item id="sortHelpModalText">En este paso, ordene las frases en una cuadrícula. {{{b}}} Los colores de la tarjeta son solo indicativos,{{{/b}}} sirven para darte una guía de tus selecciones previas. Pero  {{{b}}}aún puede cambiar de parecer {{{/b}}} y ponerlas en la sección que desee.{{{br}}}
+        <item id="sortHelpModalText">En este paso, ordene las habilidades en una cuadrícula. {{{b}}} Los colores de la tarjeta son solo indicativos,{{{/b}}} sirven para darte una guía de tus selecciones previas. Pero  {{{b}}}aún puede cambiar de parecer {{{/b}}} y ponerlas en la sección que desee.{{{br}}}
 {{{br}}}
-Vea el vídeo para obtener más información sobre cómo ordenar las tarjetas en este paso.{{{br}}}{{{br}}}
-    {{{div style=&quot;display:flex; flex-direction:column&quot;}}}  {{{iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/723gJhElR7Q&quot;}}} {{{/iframe}}} {{{/div}}} {{{/div}}}
 </item>
-        <item id="sortAgreement">De Acuerdo</item>
-        <item id="sortDisagreement">Desacuardo</item>
-        <item id="condOfInst">Ordena las tarjetas según tu experiencia como Policía de Investigación</item>
+        <item id="sortAgreement">Más útil</item>
+        <item id="sortDisagreement">Menos útil</item>
+        <item id="condOfInst">Ordena las habilidades según tu experiencia como Policía de Investigación</item>
         <item id="sortingCompleteModalHead">Clasificación completa</item>
         <item id="sortingCompleteModalText">Ha completado la clasificación. Tómese un momento para confirmar la posición de las tarjetas.{{{br}}}
 {{{br}}}
@@ -98,10 +96,10 @@ Cuando esté satisfecho con su clasificación, haga clic en el {{{b}}} botón az
 
         <!-- POSTSORT: comments - only displayed if showStep3 = true -->
         <item id="postsortHeader">Comentarios post-clasificación</item>
-        <item id="postsortInstructions">Describa con más detalle su interpretación de estas afirmaciones.</item>
+        <item id="postsortInstructions">Describa con más detalle su opinión de estas habilidades.</item>
         <item id="placeholder">Haga clic aquí para comentar</item>
-        <item id="postsortAgreement">Colocado en la columna de acuerdo +5</item>
-        <item id="postsortDisagreement">Colocado en la columna de desacuerdo -5</item>
+        <item id="postsortAgreement">Colocado en la columna de más útil  +5</item>
+        <item id="postsortDisagreement">Colocado en la columna de menos útil -5</item>
         <item id="postsortModalHead">Paso 3 de 4</item>
         <item id="postsortModalText">¡Compártanos más de su perspectiva! Puede utilizar los botones al fondo de la página para cambiar el tamaño del texto y de las tarjetas.</item>
 
