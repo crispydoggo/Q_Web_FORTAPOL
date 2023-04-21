@@ -17,13 +17,13 @@
    <!-- ACCESS -->
    <!-- options: anonymous, partId-access, partId, access -->
    <item id="initialScreen">anonymous</item>
-   <item id="accessCode">null</item>
+   <item id="accessCode">demo</item>
 
 
    <!-- FONT OPTIONS -->
    <!-- defaults false, 15, #2a2a2a -->
-   <item id="setDefaultFontSize">true</item>
-   <item id="defaultFontSize">18</item>
+   <item id="setDefaultFontSize">false</item>
+   <item id="defaultFontSize">15</item>
    <item id="defaultFontColor">#2F3658</item>
 
 
@@ -35,11 +35,11 @@
  
 
    <!-- SORT -->
-   <item id="condOfInstFontSize">22</item>
+   <item id="condOfInstFontSize">20</item>
    <item id="allowUnforcedSorts">false</item>
    <item id="warnOverloadedColumn">true</item>
-   <item id="setMinCardHeight">true</item>
-   <item id="minCardHeight">108</item>
+   <item id="setMinCardHeight">undefined</item>
+   <item id="minCardHeight">50</item>
 
 
    <!-- POSTSORT -->
@@ -57,13 +57,13 @@
    <item id="survey">
         <input type="text" required="false" limited="false" maxlength="99999" restricted="true"></input>
         <label>Edad</label>
-        <note>Por favor introduzca su edad en número</note>
+        <note>Por favor indique su edad en número</note>
    </item>
 
    <item id="survey">
-        <input type="text" required="false" limited="false" maxlength="99999" restricted="true"></input>
-        <label>Antigüedad en la institución </label>
-        <note>Por favor indique el número de años que lleva en laborando en la institución</note>
+        <input type="text" required="true" limited="false" maxlength="99999" restricted="false"></input>
+        <label>Unidad o área de adscripción</label>
+        <note>Por favor indique su unidad o área de adscripción SIN mencionar el estado, e.g. Contra la salud</note>
    </item>
 
    <item id="survey">
