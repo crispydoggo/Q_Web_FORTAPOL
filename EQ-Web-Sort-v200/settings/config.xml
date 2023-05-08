@@ -29,9 +29,9 @@
 
    <!-- PRESORT -->
    <!-- default colors #ccffcc, #e0e0e0, #ffe0f0 -->
-   <item id="greenCardColor">#ccffcc</item>
+   <item id="greenCardColor">#C9C5FF</item>
    <item id="yellowCardColor">#e0e0e0</item>
-   <item id="pinkCardColor">#ffe0e0</item>
+   <item id="pinkCardColor">#d4e6f1</item>
  
 
    <!-- SORT -->
