@@ -63,13 +63,13 @@
    <item id="survey">
         <input type="text" required="true" limited="false" maxlength="99999" restricted="false"></input>
         <label>Unidad o área de adscripción</label>
-        <note>Por favor indique su unidad o área de adscripción SIN mencionar el estado, e.g. Contra la salud</note>
+        <note>Por favor indique su unidad o área de adscripción SIN mencionar el estado de su Fiscalía, e.g. Feminicidios</note>
    </item>
 
    <item id="survey">
-        <input type="radio" required="false">Hombre;;;Mujer;;;Prefiero no decir</input>
-        <label>Sexo</label>
-        <note>Por favor seleccione el sexo con el cual nació</note>
+        <input type="radio" required="false">Mujer;;;Hombre;;;Otro</input>
+        <label>Género</label>
+        <note>Por favor seleccione el género con el que más se identifica:</note>
    </item>
 
    <item id="survey">

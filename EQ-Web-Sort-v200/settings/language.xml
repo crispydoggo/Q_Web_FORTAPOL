@@ -77,8 +77,8 @@
         <item id="postsortHeader">Comentarios post-clasificación</item>
         <item id="postsortInstructions">Describa con más detalle su opinión de estas habilidades.</item>
         <item id="placeholder">Haga clic aquí para comentar</item>
-        <item id="postsortAgreement">Colocado en la columna de más útil (10)</item>
-        <item id="postsortDisagreement">Colocado en la columna de menos útil (1)</item>
+        <item id="postsortAgreement">¿Por qué considera que esta habilidad es la más útil? </item>
+        <item id="postsortDisagreement">¿Por qué considera que esta habilidad es la de menor utilidad?</item>
         <item id="postsortModalHead">Paso 3 de 4</item>
         <item id="postsortModalText">¡Compártanos más de su perspectiva! Puede utilizar los botones al fondo de la página para cambiar el tamaño del texto y de las tarjetas.</item>
 
@@ -95,7 +95,7 @@
         <item id="transferTextAbove">Listo para enviar</item>
         <item id="transferTextBelow">Si no aparece el mensaje de confirmación de envío espere unos minutos y vuelva a pulsar el botón de envío.</item>
         <item id="transferOkModalHeader">Éxito - Los datos se han enviado al servidor</item>   
-        <item id="transferOkModalText">Gracias por participar en esta primera etapa del taller! {{{br}}} {{{br}}} Ya puede cerrar la pestaña del navegador.</item>
+        <item id="transferOkModalText">¡Gracias por participar en esta primera etapa del taller! {{{br}}} {{{br}}} Ya puede cerrar la pestaña del navegador.</item>
         <item id="transferFailModalHeader">Error en envío</item>   
         <item id="transferFailModalText">Por favor, inténtelo de nuevo en unos momentos.</item>   
         <item id="fallbackMessage">La transmisión de datos ha fallado. Por favor, descargue los resultados y envíelos por correo electrónico como archivo adjunto a orobledo@fundacionidea.org.mx {{{br}}} {{{br}}} Muchas gracias.</item>   
