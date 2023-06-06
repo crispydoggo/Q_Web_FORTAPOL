@@ -29,10 +29,21 @@ library(qmethod) # To perform the q-method analysis
 # =================================
 
 # Import manually the data 
-jsons <- rjson::fromJSON(
-  file = "./Data/fortapol-taller-default-rtdb-export.json"
-)
 
+  # E1. Prioritize skills for criminal investigation
+  jsons_e1 <- rjson::fromJSON(
+    file = "./Data/e1.json"
+  )
+  
+  # E2. Biases of criminal investigators
+  jsons_e2 <- rjson::fromJSON(
+    file = "./Data/e2.json"
+  )
+
+  jsons <- rjson::fromJSON(
+    file = "./Data/e2.json"
+  )
+  
 # Initialize the loop with our first observation
 data <- as.data.frame( jsons[[1]] )
 
@@ -76,6 +87,49 @@ colnames(matrix) <- paste("p", 1:ncol(matrix))
 # store the values as data frame
 q_sort <- as.data.frame(matrix)
 
+
+# =========================================
+# Ripping appart sort values Ken-Q Analysis
+# =========================================
+
+# Extract the only the sorts column
+sorts <- data$sort
+
+# Initialize the number of q-statements
+aux <- as.numeric(unlist(str_split(sorts[[1]], pattern = "\\|")))
+
+# Initialize the matrix with data
+matrix <- matrix(
+  nrow = length(sorts),  # Number of participants
+  ncol = length(aux), # Number of q statements
+)
+
+
+# Asign the values to the matrix
+matrix[1,] <- aux
+
+# Begin the loop to store values
+for( i in 2:length(sorts)){
+  
+  aux <-  as.numeric(unlist(str_split(sorts[[i]], pattern = "\\|")))
+  matrix[i,] <- aux
+  
+}
+
+# Rename the columns to make it a dataframe
+colnames(matrix) <- str_remove( paste("s", 1:ncol(matrix)), " ")
+
+# Store the values as data frame and add a column with participants ID
+q_sort <- tibble( participants = str_remove(paste("P", 1:nrow(matrix)), " "),  as.data.frame(matrix))
+
+
+# =========================================
+# Export to CSV Ken Q Analysis
+# =========================================
+
+qsort_e2 <- ken_data(jsons_e2)
+
+write.csv(qsort_e2, "q_sort_e2.csv", row.names=FALSE)
 
 # =================================
 # Q-Analysis

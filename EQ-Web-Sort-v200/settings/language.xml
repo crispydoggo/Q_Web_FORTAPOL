@@ -14,8 +14,8 @@
         <item id="btnNext">Continuar</item>
 
         <!-- LANDING SCREEN -->
-        <item id="landingHead">Sesión de Validación FORTAPOL</item>
-        <item id="welcomeText">{{{div style=&quot;display: flex; flex-direction: row; flex-wrap: wrap; align-items: center; justify-content: space-around; width: 100%&quot;}}} {{{div style=&quot;display:flex; flex-direction:column&quot;}}} {{{img src=&quot;/images/fiscal.png&quot; width=&quot;640&quot; /}}} {{{/div}}} {{{center}}}{{{h1}}}¡Bienvenidos a la sesión de validación!{{{/h1}}}{{{/center}}}{{{br/}}}{{{br}}} Aquí trabajaremos juntos para fortalecer la labor policial en el combate a la delincuencia y la procuración de justicia. Validaremos sus intereses formativos y habilidades necesarias de la policía de investigación para mejorar la seguridad y calidad de vida en nuestras comunidades {{{br}}} {{{br/}}} {{{center}}}¡Gracias por su participación en este importante proyecto!{{{/center}}}</item>
+        <item id="landingHead">Ejercicio 1 -  FORTAPOL</item>
+        <item id="welcomeText">{{{div style=&quot;display: flex; flex-direction: row; flex-wrap: wrap; align-items: center; justify-content: space-around; width: 100%&quot;}}} {{{div style=&quot;display:flex; flex-direction:column&quot;}}} {{{img src=&quot;/images/fiscal.png&quot; width=&quot;640&quot; /}}} {{{/div}}} {{{center}}}{{{h1}}}¡Les damos la bienvenida al Ejercicio 1!{{{/h1}}}{{{/center}}}{{{br/}}}{{{br}}} Aquí trabajaremos juntos para fortalecer la labor policial en el combate a la delincuencia y la procuración de justicia. Validaremos sus intereses formativos y habilidades necesarias de la policía de investigación para mejorar la seguridad y calidad de vida en nuestras comunidades {{{br}}} {{{br/}}} {{{center}}}¡Gracias por su participación en este importante proyecto!{{{/center}}}</item>
 
         <!-- LANDING -> ACCESS CONTROL - only displayed if access is restricted -->
         <item id="accessCodeText">Access Code</item>
@@ -37,8 +37,8 @@
         <item id="localDeleteButtonText">Delete</item>
         <item id="localDownloadButtonText">Save Q-sort Data to Disk</item>
         <item id="storedQsortsHeaderText">Stored Q-sorts</item>
-        <item id="localDeleteModalHead">Delete Data Stored in Browser?</item>
-        <item id="localDeleteModalText">This will delete the particpant Q-sort data that is currently stored in the browser. You would usually only do this when you are starting a new project.{{{br}}}{{{br}}}{{{b}}}CAUTION - Deleted data cannot be recovered.{{{/b}}} {{{br}}}{{{br}}} {{{center}}}{{{/center}}}</item>
+        <item id="localDeleteModalHead">This will delete the particpant Q-sort data that is currently stored in the browser. You would usually only do this when you are starting a new project.{{{br}}}{{{br}}}{{{b}}}CAUTION - Deleted data cannot be recovered.{{{/b}}} {{{br}}}{{{br}}} {{{center}}}{{{/center}}}</item>
+        <item id="localDeleteModalText">Delete Data Stored in Browser?</item>
         <item id="localParticipantsText">Participants</item>
         <item id="localSaveBeforeDeleteModalHeader">Delete Disabled</item>
         <item id="localSaveBeforeDeleteModalText">Save Q sort Data to Disk before deleting.</item>
@@ -54,16 +54,11 @@
         <item id="presortNeutral">Neutral</item>
         <item id="presortDisagreement">No muy útil</item>
         <item id="presortModalHead">Paso 1 de 4</item>
-        <item id="presortModalText">Lee atentamente las siguientes habilidades y divídelas en tres grupos: un grupo con las habilidades que consideres útiles, otro con las que no consideres muy útiles y otro con el resto. Puedes hacer cambios más tarde.{{{br}}} {{{br}}} 
-
-Prioriza a partir de lo que te parece más importante no en función de lo que haces o los recursos materiale que tienes.{{{br}}} {{{br}}} 
-
-Si quieres leer estas instrucciones por segunda vez, haz clic en el botón de ayuda de la esquina inferior izquierda.
-</item>
+        <item id="presortModalText">Lee atentamente las siguientes habilidades y divídelas en tres grupos: un grupo con las habilidades que consideres útiles, otro con las que no consideres muy útiles y otro con el resto. Puedes hacer cambios más tarde.{{{br}}} {{{br}}} Prioriza a partir de lo que te parece más importante no en función de lo que haces o los recursos materiale que tienes.{{{br}}} {{{br}}} Si quieres leer estas instrucciones por segunda vez, haz clic en el botón de ayuda de la esquina inferior izquierda.</item>
         <item id="presortPreventNavModalHead">Navegación desactivada</item>
         <item id="presortPreventNavModalText">Por favor, termine la clasificación preliminar antes de pasar al siguiente paso.</item>
         <item id="presortFinishedModalHead">Clasificación preliminar finalizada</item>
-        <item id="presortFinishedModalText">Ha completado este paso. Haga clic en el botón &amp;amp;quot;Continuar&amp;amp;quot; en la parte inferior derecha de la página para pasar al siguiente paso.</item>
+        <item id="presortFinishedModalText">Ha completado este paso. Haga clic en el botón &amp;amp;amp;quot;Continuar&amp;amp;amp;quot; en la parte inferior derecha de la página para pasar al siguiente paso.</item>
 
         <!-- SORT: sorting (leave blank to skip popup) -->
         <item id="sortHelpModalHead">Paso 2 de 4</item>
@@ -90,7 +85,7 @@ Si quieres leer estas instrucciones por segunda vez, haz clic en el botón de ay
         <!-- SURVEY: Additional questions, only displayed if showStep4 == true -->
         <item id="surveyHeader">Encuesta post-clasificación</item>
         <item id="surveyModalHead">Paso 4 de 4</item>
-        <item id="surveyModalText">Finally, please answer the following questions regarding su experiencia y opinión. The questions marked with an &amp;amp;quot;*&amp;amp;quot; in their title are required.</item>
+        <item id="surveyModalText">Finally, please answer the following questions regarding su experiencia y opinión. The questions marked with an &amp;amp;amp;quot;*&amp;amp;amp;quot; in their title are required.</item>
         <item id="surveyPreventNavModalHead">Cuestionario posterior a la clasificación</item>
         <item id="surveyPreventNavModalText">Responda a las preguntas obligatorias (en rojo) antes de pasar al siguiente paso.</item>
        
