@@ -2,6 +2,8 @@
 
 ken_data <- function(jsons){
   
+  # The objective of this function is to clean the data from the Q-Sort retrieved from Firebase
+  
   # Initialize the loop with our first observation
   data <- as.data.frame( jsons[[1]] )
   
