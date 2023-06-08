@@ -37,8 +37,8 @@
         <item id="localDeleteButtonText">Delete</item>
         <item id="localDownloadButtonText">Save Q-sort Data to Disk</item>
         <item id="storedQsortsHeaderText">Stored Q-sorts</item>
-        <item id="localDeleteModalHead">This will delete the particpant Q-sort data that is currently stored in the browser. You would usually only do this when you are starting a new project.{{{br}}}{{{br}}}{{{b}}}CAUTION - Deleted data cannot be recovered.{{{/b}}} {{{br}}}{{{br}}} {{{center}}}{{{/center}}}</item>
-        <item id="localDeleteModalText">Delete Data Stored in Browser?</item>
+        <item id="localDeleteModalHead">Delete Data Stored in Browser?</item>
+        <item id="localDeleteModalText">This will delete the particpant Q-sort data that is currently stored in the browser. You would usually only do this when you are starting a new project.{{{br}}}{{{br}}}{{{b}}}CAUTION - Deleted data cannot be recovered.{{{/b}}} {{{br}}}{{{br}}} {{{center}}}{{{/center}}}</item>
         <item id="localParticipantsText">Participants</item>
         <item id="localSaveBeforeDeleteModalHeader">Delete Disabled</item>
         <item id="localSaveBeforeDeleteModalText">Save Q sort Data to Disk before deleting.</item>
@@ -58,13 +58,13 @@
         <item id="presortPreventNavModalHead">Navegación desactivada</item>
         <item id="presortPreventNavModalText">Por favor, termine la clasificación preliminar antes de pasar al siguiente paso.</item>
         <item id="presortFinishedModalHead">Clasificación preliminar finalizada</item>
-        <item id="presortFinishedModalText">Ha completado este paso. Haga clic en el botón &amp;quot;Continuar&amp;quot; en la parte inferior derecha de la página para pasar al siguiente paso.</item>
+        <item id="presortFinishedModalText">Ha completado este paso. Haga clic en el botón &amp;amp;quot;Continuar&amp;amp;quot; en la parte inferior derecha de la página para pasar al siguiente paso.</item>
 
         <!-- SORT: sorting (leave blank to skip popup) -->
         <item id="sortHelpModalHead">Paso 2 de 4</item>
         <item id="sortHelpModalText">En este paso, ordene las frases en una cuadrícula. {{{b}}} Los colores de la tarjeta son solo indicativos,{{{/b}}} sirven para darte una guía de tus selecciones previas. Pero {{{b}}}aún puede cambiar de parecer {{{/b}}} y ponerlas en la sección que desee.</item>
         <item id="sortAgreement">De Acuerdo</item>
-        <item id="sortDisagreement">Desacuardo</item>
+        <item id="sortDisagreement">Desacuerdo</item>
         <item id="condOfInst">Ordena las tarjetas según tu experiencia como Policía de Investigación</item>
         <item id="sortingCompleteModalHead">Clasificación completa</item>
         <item id="sortingCompleteModalText">Ha completado la clasificación. Tómese un momento para confirmar la posición de las tarjetas.{{{br}}} {{{br}}} Cuando esté satisfecho con su clasificación, haga clic en el {{{b}}} botón azul &quot;Continuar&quot; {{{/b}}} situado en la parte inferior derecha de la pantalla para pasar a la siguiente etapa.</item>
@@ -85,7 +85,7 @@
         <!-- SURVEY: Additional questions, only displayed if showStep4 == true -->
         <item id="surveyHeader">Encuesta post-clasificación</item>
         <item id="surveyModalHead">Paso 4 de 4</item>
-        <item id="surveyModalText">Finally, please answer the following questions regarding su experiencia y opinión. The questions marked with an &amp;quot;*&amp;quot; in their title are required.</item>
+        <item id="surveyModalText">Finally, please answer the following questions regarding su experiencia y opinión. The questions marked with an &amp;amp;quot;*&amp;amp;quot; in their title are required.</item>
         <item id="surveyPreventNavModalHead">Cuestionario posterior a la clasificación</item>
         <item id="surveyPreventNavModalText">Responda a las preguntas obligatorias (en rojo) antes de pasar al siguiente paso.</item>
        
@@ -95,11 +95,11 @@
         <item id="transferTextAbove">Listo para enviar</item>
         <item id="transferTextBelow">Si no aparece el mensaje de confirmación de envío espere unos minutos y vuelva a pulsar el botón de envío.</item>
         <item id="transferOkModalHeader">Éxito - Los datos se han enviado al servidor</item>   
-        <item id="transferOkModalText">Gracias por participar en esta primera etapa del taller! {{{br}}} {{{br}}} Ya puede cerrar la pestaña del navegador.</item>
+        <item id="transferOkModalText">Gracias por participar en esta primera etapa del taller! {{{br}}} {{{br}}} Ya puede cerrar la pestaña del navegador y regresar a la sala de zoom.</item>
         <item id="transferFailModalHeader">Error en envío</item>   
         <item id="transferFailModalText">Por favor, inténtelo de nuevo en unos momentos.</item>   
         <item id="fallbackMessage">La transmisión de datos ha fallado. Por favor, descargue los resultados y envíelos por correo electrónico como archivo adjunto a orobledo@fundacionidea.org.mx {{{br}}} {{{br}}} Muchas gracias.</item>   
         <item id="btnDownload">Descargar</item>   
-        <item id="goodbyeMessage">{{{center}}}¡Gracias!{{{br}}}{{{br}}} Ahora puede cerrar la pestaña del navegador{{{/center}}}</item>   
+        <item id="goodbyeMessage">{{{center}}}¡Gracias!{{{br}}}{{{br}}} Ahora puede cerrar la pestaña del navegador y regresar a la sala de zoom{{{/center}}}</item>   
 
    </language>
