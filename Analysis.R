@@ -32,19 +32,17 @@ library(qmethod) # To perform the q-method analysis
 
   # E1. Prioritize skills for criminal investigation
   jsons_e1 <- rjson::fromJSON(
-    file = "./Data/e1.json"
+    file = "./Data/habilidades-ppi-default-rtdb-export.json"
   )
   
   # E2. Biases of criminal investigators
   jsons_e2 <- rjson::fromJSON(
-    file = "./Data/e2.json"
+    file = "./Data/fortapol-taller-default-rtdb-export.json"
   )
-
 
 # Import the data wrangling function
   
   source("ken_data.R")
-
 
 # =========================================
 # Export to CSV Ken Q Analysis
