@@ -19,8 +19,11 @@ This repository contains the resources necessary to conduct and analyze an onlin
 ## Files
 
 - `EQ-Web-Sort-v200`: A folder wich contains the whole backend of the Web Page developed by [EQ Web Sort](https://github.com/shawnbanasick/eq-web-sort).
+- `Fase_III`: the same backend of the [EQ Web Sort](https://github.com/shawnbanasick/eq-web-sort) but for the second exercise.
 - `analysis.R`: A script for conducting the Q-methodology analysis using R.
 - `README.md`: This file.
+- `statements_e1.txt`: Are the text file of the statements of the first Q-study: Criminal investigators skills preferences
+- `statements_e2.txt`: Are the text file of the statements of the second Q-study: Criminal investigators biases
 
 ## Credits
 
