@@ -37,8 +37,8 @@
         <item id="localDeleteButtonText">Delete</item>
         <item id="localDownloadButtonText">Save Q-sort Data to Disk</item>
         <item id="storedQsortsHeaderText">Stored Q-sorts</item>
-        <item id="localDeleteModalHead">This will delete the particpant Q-sort data that is currently stored in the browser. You would usually only do this when you are starting a new project.{{{br}}}{{{br}}}{{{b}}}CAUTION - Deleted data cannot be recovered.{{{/b}}} {{{br}}}{{{br}}} {{{center}}}{{{/center}}}</item>
-        <item id="localDeleteModalText">Delete Data Stored in Browser?</item>
+        <item id="localDeleteModalHead">Delete Data Stored in Browser?</item>
+        <item id="localDeleteModalText">This will delete the particpant Q-sort data that is currently stored in the browser. You would usually only do this when you are starting a new project.{{{br}}}{{{br}}}{{{b}}}CAUTION - Deleted data cannot be recovered.{{{/b}}} {{{br}}}{{{br}}} {{{center}}}{{{/center}}}</item>
         <item id="localParticipantsText">Participants</item>
         <item id="localSaveBeforeDeleteModalHeader">Delete Disabled</item>
         <item id="localSaveBeforeDeleteModalText">Save Q sort Data to Disk before deleting.</item>
@@ -54,11 +54,7 @@
         <item id="presortNeutral">Neutral</item>
         <item id="presortDisagreement">Menos útil</item>
         <item id="presortModalHead">Paso 1 de 4</item>
-        <item id="presortModalText">Lee atentamente las siguientes habilidades y divídelas en tres grupos: un grupo con las habilidades que consideres útiles, otro con las que no consideres muy útiles y otro con el resto. Puedes hacer cambios más tarde. {{{br}}} {{{br}}} 
-
-Prioriza a partir de lo que te parece más importante para desempeñar tu trabajo. {{{br}}} {{{br}}}  
-
-Si quieres leer estas instrucciones por segunda vez, haz clic en el botón de ayuda de la esquina inferior izquierda.</item>
+        <item id="presortModalText">Lee atentamente las siguientes habilidades y divídelas en tres grupos: un grupo con las habilidades que consideres útiles, otro con las que no consideres muy útiles y otro con el resto. Puedes hacer cambios más tarde. {{{br}}} {{{br}}} Prioriza a partir de lo que te parece más importante para desempeñar tu trabajo. {{{br}}} {{{br}}} Si quieres leer estas instrucciones por segunda vez, haz clic en el botón de ayuda de la esquina inferior izquierda.</item>
         <item id="presortPreventNavModalHead">Navegación desactivada</item>
         <item id="presortPreventNavModalText">Por favor, termine la clasificación preliminar antes de pasar al siguiente paso.</item>
         <item id="presortFinishedModalHead">Clasificación preliminar finalizada</item>
@@ -89,7 +85,7 @@ Si quieres leer estas instrucciones por segunda vez, haz clic en el botón de ay
         <!-- SURVEY: Additional questions, only displayed if showStep4 == true -->
         <item id="surveyHeader">Encuesta post-clasificación</item>
         <item id="surveyModalHead">Paso 4 de 4</item>
-        <item id="surveyModalText">Finally, please answer the following questions regarding su experiencia y opinión. The questions marked with an &amp;amp;amp;amp;amp;quot;*&amp;amp;amp;amp;amp;quot; in their title are required.</item>
+        <item id="surveyModalText">Finally, please answer the following questions regarding su experiencia y opinión. The questions marked with an &amp;amp;amp;amp;amp;amp;quot;*&amp;amp;amp;amp;amp;amp;quot; in their title are required.</item>
         <item id="surveyPreventNavModalHead">Cuestionario posterior a la clasificación</item>
         <item id="surveyPreventNavModalText">Responda a las preguntas obligatorias (en rojo) antes de pasar al siguiente paso.</item>
        
@@ -104,6 +100,6 @@ Si quieres leer estas instrucciones por segunda vez, haz clic en el botón de ay
         <item id="transferFailModalText">Por favor, inténtelo de nuevo en unos momentos.</item>   
         <item id="fallbackMessage">La transmisión de datos ha fallado. Por favor, descargue los resultados y envíelos por correo electrónico como archivo adjunto a lrojas@fundacionidea.org.mx con el asunto FORTAPOL: Respuestas E1 {{{br}}} {{{br}}} Muchas gracias.</item>   
         <item id="btnDownload">Descargar</item>   
-        <item id="goodbyeMessage">{{{center}}}¡Gracias!{{{br}}}{{{br}}} Ahora puede cerrar la pestaña del navegador, y por favor {{{b}}} regrese a la sala de zoom {{{/b}}} {{{/center}}}</item>   
+        <item id="goodbyeMessage">{{{center}}}¡Gracias!{{{br}}}{{{br}}}Ya puede cerrar la pestaña del navegador y {{{b}}}agradecemos su esfuerzo extra. {{{/b}}} {{{/center}}}</item>   
 
    </language>
