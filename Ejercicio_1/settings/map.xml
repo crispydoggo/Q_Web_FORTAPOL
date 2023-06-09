@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+   <map version="1.0" htmlParse="false">
+     <column id="1" colour="9FDFBF">1</column>
+     <column id="2" colour="9FDFBF">2</column>
+     <column id="3" colour="9FDFBF">3</column>
+     <column id="4" colour="9FDFBF">4</column>
+     <column id="5" colour="9FDFBF">6</column>
+     <column id="6" colour="9FDFBF">4</column>
+     <column id="7" colour="9FDFBF">3</column>
+     <column id="8" colour="9FDFBF">2</column>
+     <column id="9" colour="9FDFBF">1</column>
+     <item id="qSortHeaderNumbers">1,2,3,4,5,6,7,8,9</item>
+     <item id="qSortHeaders">1,2,3,4,5,6,7,8,9</item>
+     <item id="qSortPattern">1,2,3,4,6,4,3,2,1</item>
+     <item id="columnHeadersColorsArray">#F7FCFD,#E0ECF4,#BFD3E6,#9EBCDA,#8C96C6,#8C6BB1,#88419D,#810F7C,#4D004B</item>
+     <item id="columnColorsArray">whitesmoke,whitesmoke,whitesmoke,whitesmoke,whitesmoke,whitesmoke,whitesmoke,whitesmoke,whitesmoke</item>
+   </map>

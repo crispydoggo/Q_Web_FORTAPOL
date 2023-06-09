@@ -28,6 +28,8 @@ library(qmethod) # To perform the q-method analysis
 # Good ol' Json files and Data Wrangling Function
 # =================================
 
+  rm(list = ls())
+
 # Import manually the data 
 
   # E1. Prioritize skills for criminal investigation
@@ -53,9 +55,17 @@ qsort_e2 <- ken_data(jsons_e2)
 
 # Export CSVs
 write.csv(qsort_e1, "q_sort_e1.csv", row.names=FALSE)
-write.csv(qsort_e2, "q_sort_e2.csv", row.names=FALSE)
+write.csv(qsort_e2, "q_sort_e3.csv", row.names=FALSE)
 
 # Remember to delete the last line of the CSV
+
+
+library(viridisLite)
+viridis(n = 9)
+
+library(RColorBrewer)
+
+brewer.pal(9, "BuPu")
 
 # =================================
 # Q-Analysis
