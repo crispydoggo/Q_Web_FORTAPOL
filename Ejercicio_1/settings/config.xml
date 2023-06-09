@@ -29,7 +29,7 @@
 
    <!-- PRESORT -->
    <!-- default colors #ccffcc, #e0e0e0, #ffe0f0 -->
-   <item id="greenCardColor">#8C96C6</item>
+   <item id="greenCardColor">#d4d1f1</item>
    <item id="yellowCardColor">#e0e0e0</item>
    <item id="pinkCardColor">#E0ECF4</item>
  

@@ -14,8 +14,8 @@
         <item id="btnNext">Continuar</item>
 
         <!-- LANDING SCREEN -->
-        <item id="landingHead">Ejercicio 2 - FORTAPOL</item>
-        <item id="welcomeText">{{{div style=&quot;display: flex; flex-direction: row; flex-wrap: wrap; align-items: center; justify-content: space-around; width: 100%&quot;}}} {{{div style=&quot;display:flex; flex-direction:column&quot;}}} {{{img src=&quot;/images/fiscal.png&quot; width=&quot;640&quot; /}}} {{{/div}}} {{{center}}}{{{h1}}}¡Les damos la bienvenida al Ejercicio 2!{{{/h1}}}{{{/center}}}{{{br/}}}{{{br}}} Aquí trabajaremos juntos para fortalecer la labor policial en el combate a la delincuencia y la procuración de justicia. Validaremos sus intereses formativos y habilidades necesarias de la policía de investigación para mejorar la seguridad y calidad de vida en nuestras comunidades {{{br}}} {{{br/}}} {{{br}}} {{{br/}}} {{{center}}}¡Gracias por su participación en este importante proyecto!{{{/center}}}</item>
+        <item id="landingHead">Ejercicio 1 - FORTAPOL</item>
+        <item id="welcomeText">{{{div style=&quot;display: flex; flex-direction: row; flex-wrap: wrap; align-items: center; justify-content: space-around; width: 100%&quot;}}} {{{div style=&quot;display:flex; flex-direction:column&quot;}}} {{{img src=&quot;/images/fiscal.png&quot; width=&quot;640&quot; /}}} {{{/div}}} {{{center}}}{{{h1}}}¡Les damos la bienvenida al Ejercicio 1!{{{/h1}}}{{{/center}}}{{{br/}}}{{{br}}} Aquí trabajaremos juntos para fortalecer la labor policial en el combate a la delincuencia y la procuración de justicia. Validaremos sus intereses formativos y habilidades necesarias de la policía de investigación para mejorar la seguridad y calidad de vida en nuestras comunidades {{{br}}} {{{br/}}} {{{br}}} {{{br/}}} {{{center}}}¡Gracias por su participación en este importante proyecto!{{{/center}}}</item>
 
         <!-- LANDING -> ACCESS CONTROL - only displayed if access is restricted -->
         <item id="accessCodeText">Access Code</item>
@@ -37,8 +37,8 @@
         <item id="localDeleteButtonText">Delete</item>
         <item id="localDownloadButtonText">Save Q-sort Data to Disk</item>
         <item id="storedQsortsHeaderText">Stored Q-sorts</item>
-        <item id="localDeleteModalHead">Delete Data Stored in Browser?</item>
-        <item id="localDeleteModalText">This will delete the particpant Q-sort data that is currently stored in the browser. You would usually only do this when you are starting a new project.{{{br}}}{{{br}}}{{{b}}}CAUTION - Deleted data cannot be recovered.{{{/b}}} {{{br}}}{{{br}}} {{{center}}}{{{/center}}}</item>
+        <item id="localDeleteModalHead">This will delete the particpant Q-sort data that is currently stored in the browser. You would usually only do this when you are starting a new project.{{{br}}}{{{br}}}{{{b}}}CAUTION - Deleted data cannot be recovered.{{{/b}}} {{{br}}}{{{br}}} {{{center}}}{{{/center}}}</item>
+        <item id="localDeleteModalText">Delete Data Stored in Browser?</item>
         <item id="localParticipantsText">Participants</item>
         <item id="localSaveBeforeDeleteModalHeader">Delete Disabled</item>
         <item id="localSaveBeforeDeleteModalText">Save Q sort Data to Disk before deleting.</item>
@@ -49,24 +49,27 @@
 
         <!-- PRESORT: rough sorting into three piles (leave blank to skip popup)-->
         <item id="titleBarText">Clasificación Preliminar</item>
-        <item id="presortAgreement">De Acuerdo</item>
+        <item id="presortAgreement">Más útil</item>
         <item id="presortStatements">Afirmaciones</item>
         <item id="presortNeutral">Neutral</item>
-        <item id="presortDisagreement">Desacuerdo</item>
+        <item id="presortDisagreement">Menos útil</item>
         <item id="presortModalHead">Paso 1 de 4</item>
-        <item id="presortModalText">Lee atentamente las siguientes afirmaciones y divídelas en tres grupos: un grupo con las afirmaciones con las que no estás de acuerdo, otro con las que estás de acuerdo y otro con el resto. Puedes hacer cambios más tarde.{{{br}}} {{{br}}} Si quieres leer estas instrucciones por segunda vez, haz clic en el botón de ayuda de la esquina inferior izquierda.</item>
+        <item id="presortModalText">Lee atentamente las siguientes habilidades y divídelas en tres grupos: un grupo con las habilidades que consideres útiles, otro con las que no consideres muy útiles y otro con el resto. Puedes hacer cambios más tarde. {{{br}}} {{{br}}} 
+
+Prioriza a partir de lo que te parece más importante para desempeñar tu trabajo. {{{br}}} {{{br}}}  
+
+Si quieres leer estas instrucciones por segunda vez, haz clic en el botón de ayuda de la esquina inferior izquierda.</item>
         <item id="presortPreventNavModalHead">Navegación desactivada</item>
         <item id="presortPreventNavModalText">Por favor, termine la clasificación preliminar antes de pasar al siguiente paso.</item>
         <item id="presortFinishedModalHead">Clasificación preliminar finalizada</item>
-        <item id="presortFinishedModalText">Ha completado este paso. Haga clic en el botón &quot;Continuar&quot; en la parte inferior derecha de la página para pasar al siguiente paso.</item>
+        <item id="presortFinishedModalText">Ha completado este paso. Haga clic en el botón Continuar en la parte inferior derecha de la página para pasar al siguiente paso.</item>
 
         <!-- SORT: sorting (leave blank to skip popup) -->
         <item id="sortHelpModalHead">Paso 2 de 4</item>
-        <item id="sortHelpModalText">En este paso, ordene las habilidades en una cuadrícula de más deacuerdo(derecha) a menos de acuerdo(Izquierda). {{{br}}} {{{br}}}
-Las tarjetas ya están ordenadas según tus respuestas anteriores. {{{b}}} Los colores de la tarjeta son solo indicativos,{{{/b}}} sirven para darte una guía de tus selecciones previas. Pero {{{b}}}aún puede cambiar de parecer {{{/b}}} y ponerlas en la sección que desee.{{{br}}} {{{br}}}</item>
-        <item id="sortAgreement">De Acuerdo</item>
-        <item id="sortDisagreement">Desacuerdo</item>
-        <item id="condOfInst">Ordena las tarjetas según tu experiencia como Policía de Investigación</item>
+        <item id="sortHelpModalText">En este paso, ordene las habilidades en una cuadrícula de más útil (derecha) a menos útil (izquierda). {{{br}}} {{{br}}} Las tarjetas ya están ordenadas según tus respuestas anteriores. {{{b}}} Los colores de la tarjeta son solo indicativos,{{{/b}}} sirven para darte una guía de tus selecciones previas. Pero {{{b}}}aún puede cambiar de parecer {{{/b}}} y ponerlas en la sección que desee.{{{br}}} {{{br}}}</item>
+        <item id="sortAgreement">Más útil</item>
+        <item id="sortDisagreement">Menos útil</item>
+        <item id="condOfInst">Ordena las habilidades según tu experiencia como Policía de Investigación</item>
         <item id="sortingCompleteModalHead">Clasificación completa</item>
         <item id="sortingCompleteModalText">Ha completado la clasificación. Tómese un momento para confirmar la posición de las tarjetas.{{{br}}} {{{br}}} Cuando esté satisfecho con su clasificación, haga clic en el {{{b}}} botón azul &quot;Continuar&quot; {{{/b}}} situado en la parte inferior derecha de la pantalla para pasar a la siguiente etapa.</item>
         <item id="sortPreventNavModalHead">Navegación desactivada</item>
@@ -78,15 +81,15 @@ Las tarjetas ya están ordenadas según tus respuestas anteriores. {{{b}}} Los c
         <item id="postsortHeader">Comentarios post-clasificación</item>
         <item id="postsortInstructions">Describa con más detalle su interpretación de estas afirmaciones.</item>
         <item id="placeholder">Haga clic aquí para comentar</item>
-        <item id="postsortAgreement">¿Por qué está más de acuerdo con esta frase?</item>
-        <item id="postsortDisagreement">¿Por qué está más en desacuerdo con esta frase?</item>
+        <item id="postsortAgreement">¿Por qué considera que esta habilidad es la más útil?</item>
+        <item id="postsortDisagreement">¿Por qué considera que esta habilidad es la de menor utilidad?</item>
         <item id="postsortModalHead">Paso 3 de 4</item>
         <item id="postsortModalText">¡Compártanos más de su perspectiva! Puede utilizar los botones al fondo de la página para cambiar el tamaño del texto y de las tarjetas.</item>
 
         <!-- SURVEY: Additional questions, only displayed if showStep4 == true -->
         <item id="surveyHeader">Encuesta post-clasificación</item>
         <item id="surveyModalHead">Paso 4 de 4</item>
-        <item id="surveyModalText">Finally, please answer the following questions regarding su experiencia y opinión. The questions marked with an &amp;amp;amp;amp;quot;*&amp;amp;amp;amp;quot; in their title are required.</item>
+        <item id="surveyModalText">Finally, please answer the following questions regarding su experiencia y opinión. The questions marked with an &amp;amp;amp;amp;amp;quot;*&amp;amp;amp;amp;amp;quot; in their title are required.</item>
         <item id="surveyPreventNavModalHead">Cuestionario posterior a la clasificación</item>
         <item id="surveyPreventNavModalText">Responda a las preguntas obligatorias (en rojo) antes de pasar al siguiente paso.</item>
        
@@ -96,11 +99,11 @@ Las tarjetas ya están ordenadas según tus respuestas anteriores. {{{b}}} Los c
         <item id="transferTextAbove">Listo para enviar</item>
         <item id="transferTextBelow">Si no aparece el mensaje de confirmación de envío espere unos minutos y vuelva a pulsar el botón de envío.</item>
         <item id="transferOkModalHeader">Éxito - Los datos se han enviado al servidor</item>   
-        <item id="transferOkModalText">Gracias por participar en la segunda etapa de la sesión! {{{br}}} {{{br}}} Ya puede cerrar la pestaña del navegador y por favor {{{b}}} regrese a la sala de zoom.{{{/b}}} </item>
+        <item id="transferOkModalText">¡Gracias por reenviar sus respuestas! {{{br}}} {{{br}}} Ya puede cerrar la pestaña del navegador y agradecemos su esfuerzo extra.{{{/b}}}</item>
         <item id="transferFailModalHeader">Error en envío</item>   
         <item id="transferFailModalText">Por favor, inténtelo de nuevo en unos momentos.</item>   
-        <item id="fallbackMessage">La transmisión de datos ha fallado. Por favor, descargue los resultados y envíelos por correo electrónico como archivo adjunto a lrojas@fundacionidea.org.mx con el asunto FORTAPOL: Respuestas E2 {{{br}}} {{{br}}} Muchas gracias.</item>   
+        <item id="fallbackMessage">La transmisión de datos ha fallado. Por favor, descargue los resultados y envíelos por correo electrónico como archivo adjunto a lrojas@fundacionidea.org.mx con el asunto FORTAPOL: Respuestas E1 {{{br}}} {{{br}}} Muchas gracias.</item>   
         <item id="btnDownload">Descargar</item>   
-        <item id="goodbyeMessage">{{{center}}}¡Gracias!{{{br}}}{{{br}}} Ahora puede cerrar la pestaña del navegador, y por favor {{{b}}} regrese a la sala de zoom {{{/b}}}  {{{/center}}}</item>   
+        <item id="goodbyeMessage">{{{center}}}¡Gracias!{{{br}}}{{{br}}} Ahora puede cerrar la pestaña del navegador, y por favor {{{b}}} regrese a la sala de zoom {{{/b}}} {{{/center}}}</item>   
 
    </language>
