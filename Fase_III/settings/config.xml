@@ -73,9 +73,9 @@
    </item>
 
    <item id="survey">
-        <input type="text" required="true" limited="false" maxlength="99999" restricted="false"></input>
+        <input type="text" required="false" limited="false" maxlength="99999" restricted="false"></input>
         <label>Experiencia individual</label>
-        <note>¿Qué es lo más difícil de ser policía de investigaición?</note>
+        <note>¿Qué es lo más difícil de ser policía de investigación?</note>
    </item>
 
 

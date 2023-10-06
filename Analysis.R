@@ -2,17 +2,19 @@
 # FUNDACIÓN IDEA
 # INL008 - FORTAPOL
 # Equipo A
-# Q-Method Analysis
+# Q-Method Data Cleaning
 
 rm( list = ls())
 
 # =================================
 # Libraries
 # =================================
-library("benchmarkme") # efficient R set up
-library(fireData) # Connect Real Time data base
+
 library(tidyverse) # Manipulate data and stuff
 library(qmethod) # To perform the q-method analysis
+library(readxl) # Read excel files
+library(XLConnect) # Export data to existing excel file
+
 
 # =================================
 # Connect Real Time Data Base Q-Sort
@@ -22,21 +24,23 @@ library(qmethod) # To perform the q-method analysis
 # in the project's environment throught the .Renviron file.
 # If you want to access the Data Base please email us at: lrojasso@fundacionidea.org.mx
 
-# The package doesn't work lol, I might do it in quarto to use both R and python
+# The package doesn't work, you need to download manually the json files from the firbase 
 
 # =================================
 # Good ol' Json files and Data Wrangling Function
 # =================================
 
-  rm(list = ls())
-
 # Import manually the data 
 
   # E1. Prioritize skills for criminal investigation
   jsons_e1 <- rjson::fromJSON(
-    file = "./Data/habilidades-ppi-default-rtdb-export.json"
+    file = "./Data/e1_v2.json"
   )
   
+  # Remove responses with no data
+  jsons_e1[c(2,3,5)]= NULL
+
+  # 16,17
   # E2. Biases of criminal investigators
   jsons_e2 <- rjson::fromJSON(
     file = "./Data/fortapol-taller-default-rtdb-export.json"
@@ -53,39 +57,46 @@ library(qmethod) # To perform the q-method analysis
 qsort_e1 <- ken_data(jsons_e1)
 qsort_e2 <- ken_data(jsons_e2)
 
+
+# Old code, we need to bring excel files :/
+
 # Export CSVs
-write.csv(qsort_e1, "q_sort_e1.csv", row.names=FALSE)
+write.csv(qsort_e1, "q_sort_e1_v2.csv", row.names=FALSE)
 write.csv(qsort_e2, "q_sort_e3.csv", row.names=FALSE)
 
 # Remember to delete the last line of the CSV
 
 
-library(viridisLite)
-viridis(n = 9)
+# =======================================
+# Export to Excel Ken Q Analysis
+# =======================================
 
-library(RColorBrewer)
+name_e1 <- "./Excel_files/E1_Q.xlsx"
+name_e2 <- "./Excel_files/E2_Q.xlsx"
 
-brewer.pal(9, "BuPu")
+export_xls <- function(data, name){
+  # Exports Clean Data
+  # ----------------------------------
+  
+  book <- loadWorkbook(name)
+  writeWorksheet(book, data, sheet = 2, header = FALSE)
+  saveWorkbook(book, file = name)
+}
+
+export_xls(qsort_e1, name_e1)
+export_xls(qsort_e2, name_e2)
+
 
 # =================================
 # Q-Analysis
 # =================================
 
-# Initialize the loop with our first observation
-data <- as.data.frame( jsons_e1[[1]] )
 
-# Append the rest of the observations to a dataframe
-for( i in 2:length(jsons_e2)){
-  
-  data <- rbind(data, as.data.frame(jsons_e1[[i]]))
-  
-}
-
-results <- qmethod(q_sort, nfactors = 3)
+# results <- qmethod(q_sort, nfactors = 3)
 
 # See the factor loadings
-round(results$loa, digits = 2)
+# round(results$loa, digits = 2)
 
 # See the flagged Q-sorts: those indicating 'TRUE'
-results$flag
+# results$flag
 
