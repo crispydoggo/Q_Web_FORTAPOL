@@ -22,8 +22,8 @@
 
    <!-- FONT OPTIONS -->
    <!-- defaults false, 15, #2a2a2a -->
-   <item id="setDefaultFontSize">false</item>
-   <item id="defaultFontSize">15</item>
+   <item id="setDefaultFontSize">true</item>
+   <item id="defaultFontSize">25</item>
    <item id="defaultFontColor">#2F3658</item>
 
 
@@ -35,11 +35,11 @@
  
 
    <!-- SORT -->
-   <item id="condOfInstFontSize">20</item>
+   <item id="condOfInstFontSize">21</item>
    <item id="allowUnforcedSorts">false</item>
    <item id="warnOverloadedColumn">true</item>
-   <item id="setMinCardHeight">undefined</item>
-   <item id="minCardHeight">50</item>
+   <item id="setMinCardHeight">true</item>
+   <item id="minCardHeight">64</item>
 
 
    <!-- POSTSORT -->

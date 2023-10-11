@@ -34,21 +34,46 @@ library(XLConnect) # Export data to existing excel file
 
   # E1. Prioritize skills for criminal investigation
   jsons_e1 <- rjson::fromJSON(
-    file = "./Data/e1_v2.json"
+    file = "./Data/ejercicio-1-edd6d-default-rtdb-export.json"
   )
   
   # Remove responses with no data
   jsons_e1[c(2,3,5)]= NULL
 
-  # 16,17
   # E2. Biases of criminal investigators
   jsons_e2 <- rjson::fromJSON(
     file = "./Data/fortapol-taller-default-rtdb-export.json"
   )
 
-# Import the data wrangling function
+  # Import the data wrangling function
   
   source("ken_data.R")
+
+
+
+# =======================================
+# Export to Excel Ken Q Analysis
+# =======================================
+
+  # Define the path where to edit and save the Excel documents
+  name_e1 <- "./Excel_files/E1_Q.xlsx"
+  name_e2 <- "./Excel_files/E2_Q.xlsx"
+
+  # Function to export dataframe
+  
+  export_xls <- function(data, name){
+    # Exports Clean Dataframe to excel without headers
+    # ----------------------------------
+    
+    book <- loadWorkbook(name)
+    writeWorksheet(book, data, sheet = 2, header = FALSE)
+    saveWorkbook(book, file = name)
+  }
+
+  # Export data frames to existing excel documents
+  export_xls(qsort_e1, name_e1)
+  export_xls(qsort_e2, name_e2)
+
 
 # =========================================
 # Export to CSV Ken Q Analysis
@@ -65,26 +90,6 @@ write.csv(qsort_e1, "q_sort_e1_v2.csv", row.names=FALSE)
 write.csv(qsort_e2, "q_sort_e3.csv", row.names=FALSE)
 
 # Remember to delete the last line of the CSV
-
-
-# =======================================
-# Export to Excel Ken Q Analysis
-# =======================================
-
-name_e1 <- "./Excel_files/E1_Q.xlsx"
-name_e2 <- "./Excel_files/E2_Q.xlsx"
-
-export_xls <- function(data, name){
-  # Exports Clean Data
-  # ----------------------------------
-  
-  book <- loadWorkbook(name)
-  writeWorksheet(book, data, sheet = 2, header = FALSE)
-  saveWorkbook(book, file = name)
-}
-
-export_xls(qsort_e1, name_e1)
-export_xls(qsort_e2, name_e2)
 
 
 # =================================

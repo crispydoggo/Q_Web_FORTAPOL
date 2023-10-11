@@ -12,7 +12,7 @@ ken_data <- function(jsons){
     data <- rbind(data, as.data.frame(jsons[[i]]))
   }
   
-  # Extract the only the sorts column
+  # Extract only the sorts column
   sorts <- data$sort
   
   # Initialize the number of q-statements
