@@ -35,11 +35,11 @@
  
 
    <!-- SORT -->
-   <item id="condOfInstFontSize">22</item>
+   <item id="condOfInstFontSize">23</item>
    <item id="allowUnforcedSorts">false</item>
    <item id="warnOverloadedColumn">true</item>
    <item id="setMinCardHeight">true</item>
-   <item id="minCardHeight">92</item>
+   <item id="minCardHeight">105</item>
 
 
    <!-- POSTSORT -->
